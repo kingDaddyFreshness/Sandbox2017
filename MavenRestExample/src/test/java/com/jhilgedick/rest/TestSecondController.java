@@ -32,6 +32,6 @@ public class TestSecondController {
 		Response r = c.getMsgB("johnny boy!");
 		assertNotNull(r);
 		assertEquals(200, r.getStatus());
-		System.out.println("hi from C");
+		System.out.println("hi from D");
 	}
 }
