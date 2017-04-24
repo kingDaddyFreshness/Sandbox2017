@@ -18,7 +18,7 @@ public class TestSecondController {
 	}
 
 	@Test
-	public void testSecondControllerA() {
+	public void testSecondControllerB() {
 		SecondController c = new SecondController();
 		Response r = c.getMsgB("johnny boy!");
 		assertNotNull(r);
