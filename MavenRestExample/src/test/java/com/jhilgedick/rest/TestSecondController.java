@@ -23,6 +23,15 @@ public class TestSecondController {
 		Response r = c.getMsgB("johnny boy!");
 		assertNotNull(r);
 		assertEquals(200, r.getStatus());
-		System.out.println("hi from A");
+		System.out.println("hi from B");
+	}
+
+	@Test
+	public void testSecondControllerC() {
+		SecondController c = new SecondController();
+		Response r = c.getMsgB("johnny boy!");
+		assertNotNull(r);
+		assertEquals(200, r.getStatus());
+		System.out.println("hi from C");
 	}
 }
