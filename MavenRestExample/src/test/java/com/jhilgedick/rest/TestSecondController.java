@@ -22,7 +22,7 @@ public class TestSecondController {
 		SecondController c = new SecondController();
 		Response r = c.getMsgB("johnny boy!");
 		assertNotNull(r);
-		assertEquals(400, r.getStatus());
+		assertEquals(200, r.getStatus());
 		System.out.println("hi from A");
 	}
 }
